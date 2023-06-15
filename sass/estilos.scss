@@ -31,7 +31,7 @@ header{
     justify-content: center;
     align-items: center;
     height: 50px;
-    width: 90px;
+    width: 100px;
     border-radius: 5px;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -39,8 +39,8 @@ header{
 
 }
 .header-a:hover{
-      transform: translateY(-2px);
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 
 
 }
@@ -71,12 +71,12 @@ a:active{
 }
 
 .liconteiner li{
-   list-style: none;
+    list-style: none;
 }
 
 .fotoconteiner{
     height: 100%;
-    width: 75px;
+    width: 100px;
 }
 
 .foto{
@@ -117,10 +117,87 @@ a:active{
   padding: 20px;
   text-align: justify;
 }
-.imagen1{
-    height: 400px;
-    width: 300px;
-    border: 2px solid black
+
+.slider-frame{
+    width: 800px;
+    height: 100%;
+    margin: 50px auto 0;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.slider-frame ul{
+    display: flex;
+    padding: 0%;
+    width: 800*4px;
+    animation: slider 16s infinite alternate;
+
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    width: 800px;
+}
+
+@keyframes slider {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+
+}
+
+.slider-frame1{
+    width: 800px;
+    height: 100%;
+    margin: 50px auto 0;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.slider-frame1 ul{
+    display: flex;
+    padding: 0%;
+    width: 800*4px;
+    animation: slider 16s infinite alternate;
+
+}
+
+.slider-frame1 li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame1 img{
+    width: 800px;
+}
+
+@keyframes slider {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+
 }
 
 .contiene{
