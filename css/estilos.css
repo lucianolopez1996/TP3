@@ -21,6 +21,7 @@ body {
 header {
   background-color: rgb(255, 255, 255);
   height: 150px;
+  width: 100%;
   display: flex;
 }
 
@@ -86,7 +87,6 @@ a:active {
 .main {
   width: 100%;
   height: 100%;
-  margin: 10px;
   justify-content: center;
   align-items: center;
 }
@@ -108,6 +108,7 @@ a:active {
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 10px;
 }
 
 .parrafo {
@@ -120,7 +121,7 @@ a:active {
 }
 
 .slider-frame {
-  width: 800px;
+  width: 100%;
   height: 100%;
   margin: 50px auto 0;
   overflow: hidden;
@@ -130,7 +131,7 @@ a:active {
 .slider-frame ul {
   display: flex;
   padding: 0%;
-  width: 3200px;
+  width: 400%;
   animation: slider 16s infinite alternate;
 }
 
@@ -140,57 +141,7 @@ a:active {
 }
 
 .slider-frame img {
-  width: 800px;
-}
-
-@keyframes slider {
-  0% {
-    margin-left: 0%;
-  }
-  20% {
-    margin-left: 0%;
-  }
-  25% {
-    margin-left: -100%;
-  }
-  45% {
-    margin-left: -100%;
-  }
-  50% {
-    margin-left: -200%;
-  }
-  70% {
-    margin-left: -200%;
-  }
-  75% {
-    margin-left: -300%;
-  }
-  95% {
-    margin-left: -300%;
-  }
-}
-.slider-frame1 {
-  width: 800px;
-  height: 100%;
-  margin: 50px auto 0;
-  overflow: hidden;
-  text-align: center;
-}
-
-.slider-frame1 ul {
-  display: flex;
-  padding: 0%;
-  width: 3200px;
-  animation: slider 16s infinite alternate;
-}
-
-.slider-frame1 li {
-  list-style: none;
   width: 100%;
-}
-
-.slider-frame1 img {
-  width: 800px;
 }
 
 @keyframes slider {
