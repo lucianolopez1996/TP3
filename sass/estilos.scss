@@ -5,6 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 body{
     background-image: url(https://www.shutterstock.com/image-illustration/golden-sparkling-swirly-waves-design-260nw-2028491714.jpg);
     background-position: center;
@@ -90,6 +91,8 @@ a:active{
   justify-content: center;
   align-items: center;
 }
+
+
 .h1{
     display: flex;
     width: 100%;
@@ -97,7 +100,7 @@ a:active{
     align-items: center;
     height: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: red
+    color:red
 }
 
 .section1{
@@ -336,10 +339,6 @@ a:active{
     height: 100%;
     justify-content: space-around;
     align-items: center;
-}
-.titulo-idioma{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
 }
 
 .footercolor5{
