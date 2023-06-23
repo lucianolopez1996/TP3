@@ -1,0 +1,13 @@
+$map: (
+    footerr: white,
+);
+
+@each $redsocial, $color in $map{
+    .#{$redsocial}{
+        background-color: $color;
+        padding: 20px;
+    }
+}
+
+
+

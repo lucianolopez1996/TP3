@@ -1,0 +1,18 @@
+@mixin sizes($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.boton{
+    @include sizes(100px, 100px);
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.boton-aceptar{
+    @extend .boton;
+    background-color: green;
+}
